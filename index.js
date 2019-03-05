@@ -14,6 +14,7 @@ var itemCart = {
   itemName: itemName,
   itemPrice: Math.random() * (100 - 0) + 0
 };
+
 cart.push(itemCart);
 return `${itemName} has been added to your cart.`
 }
